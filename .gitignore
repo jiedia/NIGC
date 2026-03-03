@@ -1,0 +1,8 @@
+# 忽略所有的 numpy 矩阵文件
+*.npy
+
+# 忽略微数据文件夹 (注意路径要和报错里的一致)
+Functional consistency/microdata/
+
+# 忽略神经元实验结果文件夹
+Structural similarity/neuron_count_experiment_results/
