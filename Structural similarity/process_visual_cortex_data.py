@@ -340,7 +340,7 @@ def _knn_from_distances_cpu(distances_cp, K=40, block_size=2048):
         part = np.argpartition(D_blk, K, axis=1)[:, :K+1]
         rows = np.arange(D_blk.shape[0])[:, None]
         d_part = D_blk[rows, part]
-        # Drop self column“自己”这一列（距离为0）
+        # Drop the self column (distance = 0)
         self_mask = d_part > 0
         # Take up to K smallest non-self per row
         for r in range(D_blk.shape[0]):
@@ -3233,7 +3233,7 @@ def compute_comprehensive_similarity_for_model(real_metrics, model_metrics):
     r_clu = r_clu[r_clu > 0]
     m_clu = m_clu[m_clu > 0]
 
-    # 如果任一侧没有非零样本，则这些“条件分布”指标无法计算
+    # If either side has no non-zero samples, these "conditional distribution" metrics cannot be computed
     if (r_clu.size == 0) or (m_clu.size == 0):
         ks_stat, ks_p, ks_sim = np.nan, np.nan, np.nan
         cluster_js_dist, cluster_js_sim = np.nan, np.nan

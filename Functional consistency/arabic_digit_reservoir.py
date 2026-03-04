@@ -5877,7 +5877,7 @@ if __name__ == "__main__":
 
     # # Interactive visualization: five regions ACx, IL, PL, OFC, FP
     # try:
-    #     focus_regions = ['ACx', 'PL', 'OFC'] # ACx:elevation=-34°azimuth=71;PL:azimuth=-86°，elevation=159;OFC:azimuth=9，elevation=-56
+    #     focus_regions = ['ACx', 'PL', 'OFC'] # ACx:elevation=-34°azimuth=71;PL:azimuth=-86°,elevation=159;OFC:azimuth=9,elevation=-56
 
     #     for region in focus_regions:
     #         if region not in region_umap_normalized:

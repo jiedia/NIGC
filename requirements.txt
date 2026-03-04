@@ -1,0 +1,30 @@
+# =========================================================
+# Dependencies for Neuro-Informed Generative Connectome (NIGC)
+# =========================================================
+
+# --- Core Computation & Data Processing ---
+numpy
+pandas
+scipy
+scikit-learn
+
+# --- GPU Acceleration & Deep Learning ---
+# IMPORTANT: For 'cupy' and 'torch', it is highly recommended to install 
+# the specific versions that match your local CUDA environment.
+# Example for CUDA 11.8: pip install cupy-cuda11x
+cupy
+torch
+
+# --- Connectomics & Data Retrieval ---
+caveclient
+
+# --- Visualization & Dimensionality Reduction ---
+matplotlib
+seaborn
+pycirclize
+umap-learn
+
+# --- Utilities & Networking ---
+tqdm
+requests
+urllib3

@@ -1,12 +1,12 @@
-ave_deg=7 的信息熵随alpha变化数据
+Information-entropy data versus alpha for ave_deg=7
 ==================================================
 
-数据说明:
-- 第1列: Alpha值
-- 第2列: 对应的信息熵值
-- 行数: 数据点数量
+Data description:
+- Column 1: alpha value
+- Column 2: corresponding information-entropy value
+- Number of rows: number of data points
 
-数据内容:
+Data content:
 --------------------------------------------------
 Alpha      Information Entropy 
 --------------------------------------------------

@@ -1,8 +1,12 @@
-# 忽略所有的 numpy 矩阵文件
+# Ignore all numpy matrix files
 *.npy
 
-# 忽略微数据文件夹 (注意路径要和报错里的一致)
+# Ignore microdata folder (ensure path matches error message)
 Functional consistency/microdata/
 
-# 忽略神经元实验结果文件夹
+# Ignore neuron experiment result folder
 Structural similarity/neuron_count_experiment_results/
+
+# Ignore visual task data/feature folders
+visual_task/video_data/
+visual_task/microdata/
