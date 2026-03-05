@@ -15,6 +15,9 @@ scikit-learn
 cupy
 torch
 
+# --- Computer Vision & Video Processing ---
+opencv-python
+
 # --- Connectomics & Data Retrieval ---
 caveclient
 
